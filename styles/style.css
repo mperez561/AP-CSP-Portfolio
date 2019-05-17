@@ -6,6 +6,8 @@ h1 {
 
 p {
   color: white;
+  font-family: Verdana;
+  
 }
 
 body {
@@ -20,6 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: Verdana;
 }
 
 li {
@@ -32,6 +35,21 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Verdana;
+
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: Verdana;
 }
 
 li a:hover:not(.active) {
@@ -42,3 +60,38 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+
+p {
+    font-family: Verdana;
+}
+
+.accordion {
+  background-color: #454545;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+  font: Verdana;
+  
+}
+
+.active, .accordion:hover {
+  background-color: #4CAF50;
+  
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #1C1C1C;
+  overflow: hidden;
+}
+
+.seperate{
+  padding: 10px;
+}
